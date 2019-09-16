@@ -1,0 +1,8 @@
+com\crm\qa\base\TestBase.class
+com\crm\qa\pages\HomePage.class
+com\crm\qa\pages\AddressAdditionPage.class
+com\crm\qa\pages\ProductDetails.class
+com\crm\qa\pages\SignUpPage.class
+com\crm\qa\pages\LoginPage.class
+com\crm\qa\pages\BuyPage.class
+com\crm\qa\pages\OrdersPage.class

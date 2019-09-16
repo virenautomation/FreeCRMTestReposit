@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Maven Project--Amazon app Test Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Maven_Project__Amazon_app_Test_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\Viren\eclipse-workspace\FreeCRMTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Maven_Project__Amazon_app_Test_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Maven_Project__Amazon_app_Test_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Maven_Project__Amazon_app_Test_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Maven_Project__Amazon_app_Test_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Maven_Project__Amazon_app_Test_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Maven_Project__Amazon_app_Test_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 4 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" class="hide-methods failed suite-Maven_Project__Amazon_app_Test_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Maven_Project__Amazon_app_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" class="show-methods failed suite-Maven_Project__Amazon_app_Test_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Maven_Project__Amazon_app_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Maven_Project__Amazon_app_Test_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.HomePageTest" class="method navigator-link" hash-for-method="DeliveryLocationTest">DeliveryLocationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.BuyTest" class="method navigator-link" hash-for-method="ValidateAddToCartBtnTest">ValidateAddToCartBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.BuyTest" class="method navigator-link" hash-for-method="ValidateBuyAgainLinkTest">ValidateBuyAgainLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.BuyTest" class="method navigator-link" hash-for-method="ValidateDelvAddressBtnTest">ValidateDelvAddressBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Maven_Project__Amazon_app_Test_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" class="hide-methods passed suite-Maven_Project__Amazon_app_Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Maven_Project__Amazon_app_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" class="show-methods passed suite-Maven_Project__Amazon_app_Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Maven_Project__Amazon_app_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Maven_Project__Amazon_app_Test_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.LoginPageTest" class="method navigator-link" hash-for-method="AmazonLogoImageTest">AmazonLogoImageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.LoginPageTest" class="method navigator-link" hash-for-method="AmazonTitleTest">AmazonTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.HomePageTest" class="method navigator-link" hash-for-method="HomePageTitleTest">HomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.HomePageTest" class="method navigator-link" hash-for-method="IsPrimeMembershipTest">IsPrimeMembershipTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.HomePageTest" class="method navigator-link" hash-for-method="LanguagePreferenceTest">LanguagePreferenceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.HomePageTest" class="method navigator-link" hash-for-method="OrderLinkTest">OrderLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.HomePageTest" class="method navigator-link" hash-for-method="SearhAllOptionTest">SearhAllOptionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.BuyTest" class="method navigator-link" hash-for-method="ValidateAddToCartLinkTest">ValidateAddToCartLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.HomePageTest" class="method navigator-link" hash-for-method="ValidateOrderPageTitleTest">ValidateOrderPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.BuyTest" class="method navigator-link" hash-for-method="ValidateProceedToBuyBtnTest">ValidateProceedToBuyBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" title="com.crm.qa.Testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Maven_Project__Amazon_app_Test_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Maven_Project__Amazon_app_Test_Automation_Suite" class="panel Maven_Project__Amazon_app_Test_Automation_Suite">
+          <div class="suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.qa.Testcases.BuyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateAddToCartBtnTest">
+                  </a> <!-- ValidateAddToCartBtnTest -->
+                  <span class="method-name">ValidateAddToCartBtnTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;a-autoid-3&apos;]/span/input&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;VIRENDER-KUMAR&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Viren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49802}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7db4ffeec24bf016b2de2bd4726aa3a4
+*** Element info: {Using=xpath, value=//*[@id=&apos;a-autoid-3&apos;]/span/input}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+	at com.crm.qa.pages.BuyPage.ValidateAddToCartBtn(BuyPage.java:48)
+	at com.crm.qa.Testcases.BuyTest.ValidateAddToCartBtnTest(BuyTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateBuyAgainLinkTest">
+                  </a> <!-- ValidateBuyAgainLinkTest -->
+                  <span class="method-name">ValidateBuyAgainLinkTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Buy Again] but found [virender&apos;s Amazon.in]
+	at com.crm.qa.Testcases.BuyTest.ValidateBuyAgainLinkTest(BuyTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateDelvAddressBtnTest">
+                  </a> <!-- ValidateDelvAddressBtnTest -->
+                  <span class="method-name">ValidateDelvAddressBtnTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;address-book-entry-0&quot;]/div[2]/span/a&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;VIRENDER-KUMAR&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Viren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49802}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7db4ffeec24bf016b2de2bd4726aa3a4
+*** Element info: {Using=xpath, value=//*[@id=&quot;address-book-entry-0&quot;]/div[2]/span/a}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+	at com.crm.qa.pages.BuyPage.ValidateDelvAddressBtn(BuyPage.java:69)
+	at com.crm.qa.Testcases.BuyTest.ValidateDelvAddressBtnTest(BuyTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-failed -->
+          <div class="suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.qa.Testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeliveryLocationTest">
+                  </a> <!-- DeliveryLocationTest -->
+                  <span class="method-name">DeliveryLocationTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Ghaziabad 201003] but found [Ghaziabad 201003‌]
+	at com.crm.qa.Testcases.HomePageTest.DeliveryLocationTest(HomePageTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-failed -->
+          <div class="suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.Testcases.BuyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateAddToCartLinkTest">
+                  </a> <!-- ValidateAddToCartLinkTest -->
+                  <span class="method-name">ValidateAddToCartLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateProceedToBuyBtnTest">
+                  </a> <!-- ValidateProceedToBuyBtnTest -->
+                  <span class="method-name">ValidateProceedToBuyBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-passed -->
+          <div class="suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.Testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageTitleTest">
+                  </a> <!-- HomePageTitleTest -->
+                  <span class="method-name">HomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IsPrimeMembershipTest">
+                  </a> <!-- IsPrimeMembershipTest -->
+                  <span class="method-name">IsPrimeMembershipTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LanguagePreferenceTest">
+                  </a> <!-- LanguagePreferenceTest -->
+                  <span class="method-name">LanguagePreferenceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderLinkTest">
+                  </a> <!-- OrderLinkTest -->
+                  <span class="method-name">OrderLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearhAllOptionTest">
+                  </a> <!-- SearhAllOptionTest -->
+                  <span class="method-name">SearhAllOptionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateOrderPageTitleTest">
+                  </a> <!-- ValidateOrderPageTitleTest -->
+                  <span class="method-name">ValidateOrderPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-passed -->
+          <div class="suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.Testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AmazonLogoImageTest">
+                  </a> <!-- AmazonLogoImageTest -->
+                  <span class="method-name">AmazonLogoImageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AmazonTitleTest">
+                  </a> <!-- AmazonTitleTest -->
+                  <span class="method-name">AmazonTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Maven_Project__Amazon_app_Test_Automation_Suite-class-passed -->
+        </div> <!-- panel Maven_Project__Amazon_app_Test_Automation_Suite -->
+        <div panel-name="test-xml-Maven_Project__Amazon_app_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Viren\eclipse-workspace\FreeCRMTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Maven Project--Amazon app Test Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon App Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crm.qa.Testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.Testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.Testcases.BuyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon App Test --&gt;
+&lt;/suite&gt; &lt;!-- Maven Project-Amazon app Test Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Maven_Project__Amazon_app_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Maven Project--Amazon app Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon App Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Maven_Project__Amazon_app_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Maven Project--Amazon app Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Maven_Project__Amazon_app_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Maven Project--Amazon app Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Maven_Project__Amazon_app_Test_Automation_Suite');
+function tableData_Maven_Project__Amazon_app_Test_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.crm.qa.Testcases.LoginPageTest')
+data.setCell(0, 3, 12129);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidateAddToCartLinkTest')
+data.setCell(1, 2, 'com.crm.qa.Testcases.BuyTest')
+data.setCell(1, 3, 7391);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AmazonTitleTest')
+data.setCell(2, 2, 'com.crm.qa.Testcases.LoginPageTest')
+data.setCell(2, 3, 6837);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ValidateAddToCartBtnTest')
+data.setCell(3, 2, 'com.crm.qa.Testcases.BuyTest')
+data.setCell(3, 3, 5722);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ValidateDelvAddressBtnTest')
+data.setCell(4, 2, 'com.crm.qa.Testcases.BuyTest')
+data.setCell(4, 3, 5027);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateProceedToBuyBtnTest')
+data.setCell(5, 2, 'com.crm.qa.Testcases.BuyTest')
+data.setCell(5, 3, 3897);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'AmazonLogoImageTest')
+data.setCell(6, 2, 'com.crm.qa.Testcases.LoginPageTest')
+data.setCell(6, 3, 2966);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ValidateOrderPageTitleTest')
+data.setCell(7, 2, 'com.crm.qa.Testcases.HomePageTest')
+data.setCell(7, 3, 1586);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'IsPrimeMembershipTest')
+data.setCell(8, 2, 'com.crm.qa.Testcases.HomePageTest')
+data.setCell(8, 3, 109);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LanguagePreferenceTest')
+data.setCell(9, 2, 'com.crm.qa.Testcases.HomePageTest')
+data.setCell(9, 3, 109);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'HomePageTitleTest')
+data.setCell(10, 2, 'com.crm.qa.Testcases.HomePageTest')
+data.setCell(10, 3, 98);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ValidateBuyAgainLinkTest')
+data.setCell(11, 2, 'com.crm.qa.Testcases.BuyTest')
+data.setCell(11, 3, 84);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'DeliveryLocationTest')
+data.setCell(12, 2, 'com.crm.qa.Testcases.HomePageTest')
+data.setCell(12, 3, 68);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'OrderLinkTest')
+data.setCell(13, 2, 'com.crm.qa.Testcases.HomePageTest')
+data.setCell(13, 3, 47);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'SearhAllOptionTest')
+data.setCell(14, 2, 'com.crm.qa.Testcases.HomePageTest')
+data.setCell(14, 3, 35);
+window.suiteTableData['Maven_Project__Amazon_app_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Maven_Project__Amazon_app_Test_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Maven_Project__Amazon_app_Test_Automation_Suite">
+              </div> <!-- times-div-Maven_Project__Amazon_app_Test_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Maven_Project__Amazon_app_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Maven Project--Amazon app Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Maven_Project__Amazon_app_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Maven_Project__Amazon_app_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.Testcases.BuyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.Testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">46941 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.Testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">101584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AmazonTitleTest</span>
+                <span class="method-start">176471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">183870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">186843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AmazonLogoImageTest</span>
+                <span class="method-start">221353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">224319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">225954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">245185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">257318 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.Testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HomePageTitleTest</span>
+                <span class="method-start">258173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IsPrimeMembershipTest</span>
+                <span class="method-start">258271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DeliveryLocationTest</span>
+                <span class="method-start">258380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearhAllOptionTest</span>
+                <span class="method-start">258632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LanguagePreferenceTest</span>
+                <span class="method-start">258683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OrderLinkTest</span>
+                <span class="method-start">258792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateOrderPageTitleTest</span>
+                <span class="method-start">258839 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.Testcases.BuyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateBuyAgainLinkTest</span>
+                <span class="method-start">260429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateAddToCartBtnTest</span>
+                <span class="method-start">260513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateAddToCartLinkTest</span>
+                <span class="method-start">266235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateProceedToBuyBtnTest</span>
+                <span class="method-start">273630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateDelvAddressBtnTest</span>
+                <span class="method-start">277527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">282558 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.Testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">282558 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

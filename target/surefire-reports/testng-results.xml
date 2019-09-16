@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="15" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="338452" started-at="2019-09-15T14:58:01 IST" finished-at="2019-09-15T15:03:40 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="338452" started-at="2019-09-15T14:58:01 IST" finished-at="2019-09-15T15:03:40 IST">
+      <class name="com.crm.qa.Testcases.BuyTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.Testcases.BuyTest@1494225]" name="setup" is-config="true" duration-ms="73602" started-at="2019-09-15T14:58:01 IST" finished-at="2019-09-15T14:59:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateBuyAgainLinkTest()[pri:1, instance:com.crm.qa.Testcases.BuyTest@1494225]" name="ValidateBuyAgainLinkTest" duration-ms="19456" started-at="2019-09-15T15:00:28 IST" finished-at="2019-09-15T15:00:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBuyAgainLinkTest -->
+        <test-method status="PASS" signature="ValidateAddToCartBtnTest()[pri:2, instance:com.crm.qa.Testcases.BuyTest@1494225]" name="ValidateAddToCartBtnTest" duration-ms="1461" started-at="2019-09-15T15:00:48 IST" finished-at="2019-09-15T15:00:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddToCartBtnTest -->
+        <test-method status="PASS" signature="ValidateAddToCartLinkTest()[pri:3, instance:com.crm.qa.Testcases.BuyTest@1494225]" name="ValidateAddToCartLinkTest" duration-ms="18511" started-at="2019-09-15T15:00:50 IST" finished-at="2019-09-15T15:01:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddToCartLinkTest -->
+        <test-method status="PASS" signature="ValidateProceedToBuyBtnTest()[pri:4, instance:com.crm.qa.Testcases.BuyTest@1494225]" name="ValidateProceedToBuyBtnTest" duration-ms="3978" started-at="2019-09-15T15:01:08 IST" finished-at="2019-09-15T15:01:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateProceedToBuyBtnTest -->
+        <test-method status="FAIL" signature="ValidateDelvAddressBtnTest()[pri:5, instance:com.crm.qa.Testcases.BuyTest@1494225]" name="ValidateDelvAddressBtnTest" duration-ms="7376" started-at="2019-09-15T15:01:12 IST" finished-at="2019-09-15T15:01:20 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="address-book-entry-0"]/div[2]/span/a"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'VIRENDER-KUMAR', ip: '192.168.0.105', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Viren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6753ef01780d24eab2314799a50723f
+*** Element info: {Using=xpath, value=//*[@id="address-book-entry-0"]/div[2]/span/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="address-book-entry-0"]/div[2]/span/a"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'VIRENDER-KUMAR', ip: '192.168.0.105', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Viren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6753ef01780d24eab2314799a50723f
+*** Element info: {Using=xpath, value=//*[@id="address-book-entry-0"]/div[2]/span/a}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at com.crm.qa.pages.BuyPage.ValidateDelvAddressBtn(BuyPage.java:69)
+at com.crm.qa.Testcases.BuyTest.ValidateDelvAddressBtnTest(BuyTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner$$Lambda$262/9139779.accept(Unknown Source)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDelvAddressBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.Testcases.BuyTest@1494225]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-15T15:03:40 IST" finished-at="2019-09-15T15:03:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.Testcases.BuyTest -->
+      <class name="com.crm.qa.Testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="setup" is-config="true" duration-ms="72833" started-at="2019-09-15T14:59:15 IST" finished-at="2019-09-15T15:00:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="HomePageTitleTest()[pri:1, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="HomePageTitleTest" duration-ms="67" started-at="2019-09-15T15:01:20 IST" finished-at="2019-09-15T15:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleTest -->
+        <test-method status="PASS" signature="IsPrimeMembershipTest()[pri:2, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="IsPrimeMembershipTest" duration-ms="71" started-at="2019-09-15T15:01:20 IST" finished-at="2019-09-15T15:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPrimeMembershipTest -->
+        <test-method status="FAIL" signature="DeliveryLocationTest()[pri:3, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="DeliveryLocationTest" duration-ms="65" started-at="2019-09-15T15:01:20 IST" finished-at="2019-09-15T15:01:20 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Ghaziabad 201003â€Œ] but found [Ghaziabad 201003‌]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Ghaziabad 201003â€Œ] but found [Ghaziabad 201003‌]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.crm.qa.Testcases.HomePageTest.DeliveryLocationTest(HomePageTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner$$Lambda$262/9139779.accept(Unknown Source)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeliveryLocationTest -->
+        <test-method status="PASS" signature="SearhAllOptionTest()[pri:4, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="SearhAllOptionTest" duration-ms="38" started-at="2019-09-15T15:01:20 IST" finished-at="2019-09-15T15:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearhAllOptionTest -->
+        <test-method status="PASS" signature="LanguagePreferenceTest()[pri:5, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="LanguagePreferenceTest" duration-ms="77" started-at="2019-09-15T15:01:20 IST" finished-at="2019-09-15T15:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanguagePreferenceTest -->
+        <test-method status="PASS" signature="OrderLinkTest()[pri:6, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="OrderLinkTest" duration-ms="38" started-at="2019-09-15T15:01:20 IST" finished-at="2019-09-15T15:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderLinkTest -->
+        <test-method status="PASS" signature="ValidateOrderPageTitleTest()[pri:7, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="ValidateOrderPageTitleTest" duration-ms="2995" started-at="2019-09-15T15:01:20 IST" finished-at="2019-09-15T15:01:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateOrderPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.Testcases.HomePageTest@1567f1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-15T15:03:40 IST" finished-at="2019-09-15T15:03:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.Testcases.HomePageTest -->
+      <class name="com.crm.qa.Testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="setup" is-config="true" duration-ms="64327" started-at="2019-09-15T15:01:23 IST" finished-at="2019-09-15T15:02:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AmazonTitleTest()[pri:1, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="AmazonTitleTest" duration-ms="29" started-at="2019-09-15T15:02:28 IST" finished-at="2019-09-15T15:02:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="teardown" is-config="true" duration-ms="2605" started-at="2019-09-15T15:02:28 IST" finished-at="2019-09-15T15:02:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="setup" is-config="true" duration-ms="40802" started-at="2019-09-15T15:02:30 IST" finished-at="2019-09-15T15:03:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AmazonLogoImageTest()[pri:2, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="AmazonLogoImageTest" duration-ms="2632" started-at="2019-09-15T15:03:11 IST" finished-at="2019-09-15T15:03:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonLogoImageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="teardown" is-config="true" duration-ms="2462" started-at="2019-09-15T15:03:14 IST" finished-at="2019-09-15T15:03:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="setup" is-config="true" duration-ms="12834" started-at="2019-09-15T15:03:16 IST" finished-at="2019-09-15T15:03:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="loginTest()[pri:3, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="loginTest" duration-ms="10077" started-at="2019-09-15T15:03:29 IST" finished-at="2019-09-15T15:03:39 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nav-link-accountList']/span[2]/span"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'VIRENDER-KUMAR', ip: '192.168.0.105', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Viren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5f130ba138f6cdbfc43fa1dac42ebd27
+*** Element info: {Using=xpath, value=//*[@id='nav-link-accountList']/span[2]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nav-link-accountList']/span[2]/span"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'VIRENDER-KUMAR', ip: '192.168.0.105', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\Viren\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5f130ba138f6cdbfc43fa1dac42ebd27
+*** Element info: {Using=xpath, value=//*[@id='nav-link-accountList']/span[2]/span}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.crm.qa.pages.LoginPage.login(LoginPage.java:54)
+at com.crm.qa.Testcases.LoginPageTest.loginTest(LoginPageTest.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner$$Lambda$262/9139779.accept(Unknown Source)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:497)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.Testcases.LoginPageTest@b9f472]" name="teardown" is-config="true" duration-ms="844" started-at="2019-09-15T15:03:39 IST" finished-at="2019-09-15T15:03:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.qa.Testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
