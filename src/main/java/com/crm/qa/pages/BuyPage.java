@@ -8,27 +8,29 @@ import com.crm.qa.base.TestBase;
 
 public class BuyPage extends TestBase{
 
-	@FindBy(xpath="//*[@id=\"nav-xshop\"]/a[1]")
-	public WebElement BuyAgainLink;
+	@FindBy(id="twotabsearchtextbox")
+	public WebElement SearchTxtBx;
 	
-	@FindBy(xpath="//*[@id='a-autoid-3']/span/input")
+	@FindBy(xpath="//*[@id='nav-search']/form/div[2]/div/input")
+	public WebElement searchGolink;
+	
+	@FindBy(xpath="//*[@id=\"search\"]/div[1]/div[2]/div/span[3]/div[1]/div[1]/div/span/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a/span")
+	public WebElement EchoDotLink;
+	
+	@FindBy(id="add-to-cart-button")
 	public WebElement AddToCartBtn;
 	
-	
-	@FindBy(xpath="//*[@id=\"nav-cart-count\"]")
-	public WebElement AddToCartLink;
-	
-	@FindBy(xpath="//*[@id=\"sc-buy-box-ptc-button\"]/span/input")
+	@FindBy(id="hlb-ptc-btn-native")
 	public WebElement ProceedToBuyBtn;
 	
-	@FindBy(xpath="//*[@id=\"address-book-entry-0\"]/div[2]/span/a")
-	public WebElement DelvAddressBtn;
-	
-	@FindBy(xpath="//*[@id=\"add-to-cart-button\"]")
-	WebElement EchoAddToCartBtn;
-	
-	@FindBy(xpath="//*[@id=\"hlb-ptc-btn-native\"]")
-	WebElement ProToBuyBtn;
+//	@FindBy(xpath="//*[@id=\"address-book-entry-0\"]/div[2]/span/a")
+//	public WebElement DelvAddressBtn;
+//	
+//	@FindBy(xpath="//*[@id=\"add-to-cart-button\"]")
+//	WebElement EchoAddToCartBtn;
+//	
+//	@FindBy(xpath="//*[@id=\"hlb-ptc-btn-native\"]")
+//	WebElement ProToBuyBtn;
 
 
 public BuyPage()
@@ -36,23 +38,30 @@ public BuyPage()
 	PageFactory.initElements(driver, this);
 }
 
-public String ValidateBuyAgainLink()
+public boolean ValidateSearchTxtBox()
 {
-	return BuyAgainLink.getText();
+	return SearchTxtBx.isDisplayed();
 //	return BuyAgainLink.isDisplayed();
 //	BuyAgainLink.click();
 }
 
-public boolean ValidateAddToCartBtn()
+public boolean ValidateSearchGoLink()
 {
-	return AddToCartBtn.isDisplayed();
+	return searchGolink.isEnabled();
 //	return AddToCartBtn.isEnabled();
 //	AddToCartBtn.click();
 }
 
-public boolean ValidateAddToCartLink()
+public boolean ValidateEchodotLink()
 {
-	return AddToCartLink.isDisplayed();
+	return EchoDotLink.isDisplayed();
+//	return AddToCartLink.isEnabled();
+//	AddToCartLink.click();
+}
+
+public boolean ValidateAddToCartBtn()
+{
+	return AddToCartBtn.isEnabled();
 //	return AddToCartLink.isEnabled();
 //	AddToCartLink.click();
 }
@@ -64,19 +73,19 @@ public boolean ValidateProceedToBuyBtn()
 //	ProceedToBuyBtn.click();
 }
 
-public boolean ValidateDelvAddressBtn()
-{
-	return DelvAddressBtn.isDisplayed();
-//	return DelvAddressBtn.isEnabled();
-//	DelvAddressBtn.click();
+//public boolean ValidateDelvAddressBtn()
+//{
+//	return DelvAddressBtn.isDisplayed();
+////	return DelvAddressBtn.isEnabled();
+////	DelvAddressBtn.click();
+//}
+//
+//public void ValidateEchoAddToCartBtn()
+//{
+//	EchoAddToCartBtn.click();
+//	ProToBuyBtn.click();
 }
 
-public void ValidateEchoAddToCartBtn()
-{
-	EchoAddToCartBtn.click();
-	ProToBuyBtn.click();
-}
-}
 
 
 

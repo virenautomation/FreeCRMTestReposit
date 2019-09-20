@@ -6,9 +6,9 @@
       <class name="com.crm.qa.Testcases.BuyTest">
         <methods>
           <include name="tearDown"/>
-          <include name="ValidateDelvAddressBtnTest"/>
+          <include name="ValidateAddToCartLinkTest"/>
+          <include name="ValidateProceedToBuyBtnTest"/>
           <include name="setup"/>
-          <include name="ValidateBuyAgainLinkTest"/>
           <include name="ValidateAddToCartBtnTest"/>
         </methods>
       </class> <!-- com.crm.qa.Testcases.BuyTest -->

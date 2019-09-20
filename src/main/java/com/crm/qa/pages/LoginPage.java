@@ -2,8 +2,10 @@ package com.crm.qa.pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 //import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -15,6 +17,9 @@ public class LoginPage extends TestBase
 	//Page Factory - OR;
 	@FindBy(xpath="//*[@id=\'nav-link-accountList\']/span[2]/span")
 	WebElement loginbtn;
+	
+	@FindBy(xpath="//*[@id=\"nav-flyout-ya-signin\"]/a/span")
+	WebElement signinbtn1;
 	
 	@FindBy(xpath="//input[@id='ap_email']")
 	WebElement username;
@@ -53,6 +58,10 @@ public class LoginPage extends TestBase
 	{
 		loginbtn.click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		WebElement wb = driver.findElement(By.xpath("//*[@id=\"nav-flyout-ya-signin\"]/a/span"));
+		Actions act = new Actions(driver);
+		act.moveToElement(wb).build().perform();
+		wb.click();
 		username.clear();
 		username.sendKeys(un);
 		continuebtn.click();

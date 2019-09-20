@@ -31,30 +31,39 @@ public class BuyTest extends TestBase
 	}
 		
 		@Test(priority=1)
-		public void ValidateBuyAgainLinkTest()
+		public void ValidateSearchTxtBoxTest()
 		{
-			String BuyAg=buyPage.ValidateBuyAgainLink();
-			Assert.assertEquals(BuyAg, "Buy Again");
-			buyPage.BuyAgainLink.click();
+			boolean srhTx=buyPage.ValidateSearchTxtBox();
+//			Assert.assertEquals(BuyAg, "virender's Amazon.in");
+			Assert.assertTrue(srhTx, "The Textbox is enabled");
+			buyPage.SearchTxtBx.sendKeys("Echo dot");
 		}
 		
 		@Test(priority=2)
-		public void ValidateAddToCartBtnTest()
+		public void ValidateSearchGoLink()
 		{
-			boolean Adtocrt=buyPage.ValidateAddToCartBtn();
-			Assert.assertTrue(Adtocrt);
-			buyPage.AddToCartBtn.click();
+			boolean srhLnk=buyPage.ValidateSearchGoLink();
+			Assert.assertTrue(srhLnk);
+			buyPage.searchGolink.click();
 		}
 		
 		@Test(priority=3)
-		public void ValidateAddToCartLinkTest()
+		public void ValidateEchoDotLinkTest()
 		{
-			boolean Adtocrtlnk=buyPage.ValidateAddToCartLink();
-			Assert.assertTrue(Adtocrtlnk);
-			buyPage.AddToCartLink.click();
+			boolean Echolnk=buyPage.ValidateEchodotLink();
+			Assert.assertTrue(Echolnk);
+			buyPage.EchoDotLink.click();
 		}
 	
 		@Test(priority=4)
+		public void ValidateAddToCartBtnTest()
+		{
+			boolean AddToBtn=buyPage.ValidateAddToCartBtn();
+			Assert.assertTrue(AddToBtn);
+			buyPage.AddToCartBtn.click();
+		}
+		
+		@Test(priority=5)
 		public void ValidateProceedToBuyBtnTest()
 		{
 			boolean PrdTobuyBtn=buyPage.ValidateProceedToBuyBtn();
@@ -62,13 +71,13 @@ public class BuyTest extends TestBase
 			buyPage.ProceedToBuyBtn.click();
 		}
 		
-		@Test(priority=5)
-		public void ValidateDelvAddressBtnTest()
-		{
-			boolean DelAddbtn=buyPage.ValidateDelvAddressBtn();
-			Assert.assertTrue(DelAddbtn);
-			buyPage.DelvAddressBtn.click();
-		}
+//		@Test(priority=5)
+//		public void ValidateDelvAddressBtnTest()
+//		{
+//			boolean DelAddbtn=buyPage.ValidateDelvAddressBtn();
+//			Assert.assertTrue(DelAddbtn);
+//			buyPage.DelvAddressBtn.click();
+//		}
 		
 		@AfterTest
 		public void tearDown()

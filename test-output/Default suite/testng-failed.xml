@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.Testcases.AddAddressPageTest">
+      <class name="com.crm.qa.Testcases.BuyTest">
         <methods>
-          <include name="teardown"/>
+          <include name="tearDown"/>
+          <include name="ValidateProceedToBuyBtnTest"/>
           <include name="setup"/>
-          <include name="ValidateFillAddressDetails"/>
+          <include name="ValidateAddToCartBtnTest"/>
         </methods>
-      </class> <!-- com.crm.qa.Testcases.AddAddressPageTest -->
+      </class> <!-- com.crm.qa.Testcases.BuyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
